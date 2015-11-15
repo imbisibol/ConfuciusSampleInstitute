@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity$PlaceholderFragment">
+
+    <ProgressBar android:id="@+id/login_progress" style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp" android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/dvContent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <FrameLayout
+            android:id="@+id/dvHead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="120dp"
+                    android:scaleType="fitXY"
+                    android:id="@+id/imgBannerURL"
+                    android:layout_margin="-20dp"
+                    android:background="@drawable/gradient_drawable"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/imgInstituteLogo"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="70dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="[InstituteName]"
+                    android:id="@+id/lblInstituteName"
+                    android:layout_alignParentTop="true"
+                    android:textSize="24sp"
+                    android:layout_toRightOf="@+id/imgInstituteLogo"
+                    android:layout_marginTop="130dp"
+                    android:layout_marginLeft="10dp"
+                    />
+            </RelativeLayout>
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/lblAboutUs"
+            android:id="@+id/textView"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/dvHead"/>
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/textView">
+
+                <WebView
+                    android:id="@+id/wvAbout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"></WebView>
+
+        </ScrollView>
+
+
+    </RelativeLayout>
+</LinearLayout>

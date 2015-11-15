@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">BO Institute Profile</string>
+
+    <string name="title_section1">About</string>
+    <string name="title_section2">Courses</string>
+    <string name="title_section3">Faculty</string>
+    <string name="title_section4">Blogs</string>
+    <string name="title_section5">Publications</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="lblCourses">Courses</string>
+    <string name="lblBlogs">Blogs</string>
+    <string name="lblFaculty">Faculty</string>
+    <string name="lblPublications">Publications</string>
+    <string name="tempInstituteId">FE50669B-E5CC-4ED3-99E3-C3E606CFD02B</string>
+    <string name="ApplicationId">5FE32616-CF80-40B1-A36F-A49CA73A775B</string>
+    <string name="tempInstituteName">OB%20Institute</string>
+    <string name="ConfuciusSecurityAPIURL">http://130.211.177.252:8050/</string>
+    <string name="ConfuciusLearningAPIURL">http://130.211.177.252:8051/</string>
+    <string name="lblAboutUs">About Us</string>
+    <string name="INTENT_CourseId">INTENT_CourseId</string>
+    <string name="INTENT_FacultyId">INTENT_FacultyId</string>
+    <string name="CourseInfoTitle">BO Institute: COURSE INFO</string>
+    <string name="FacultyInfoTitle">BO Institute: INSTRUCTOR INFO</string>
+    <string name="DEFAULT_user_avatar">/Content/Images/blank_user.png</string>
+    <string name="DEFAULT_image_domain">http://130.211.177.252:8052/</string>
+    <string name="DEFAULT_blank_institute">/Content/Images/blank_institute.jpg</string>
+</resources>
